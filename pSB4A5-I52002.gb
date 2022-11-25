@@ -1,0 +1,252 @@
+LOCUS       EU496098                4485 bp    DNA     circular SYN 21-APR-2008
+DEFINITION  BioBrick cloning vector pSB4A5-I52002, complete sequence.
+ACCESSION   EU496098
+VERSION     EU496098.1
+KEYWORDS    .
+SOURCE      BioBrick cloning vector pSB4A5-I52002
+  ORGANISM  BioBrick cloning vector pSB4A5-I52002
+            other sequences; artificial sequences; vectors.
+REFERENCE   1  (bases 1 to 4485)
+  AUTHORS   Shetty,R.P., Endy,D. and Knight,T.F. Jr.
+  TITLE     Engineering BioBrick vectors from BioBrick parts
+  JOURNAL   J Biol Eng 2, 5 (2008)
+   PUBMED   18410688
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 4485)
+  AUTHORS   Shetty,R.P., Endy,D. and Knight,T.F. Jr.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-FEB-2008) Biological Engineering, MIT, 32 Vassar
+            Street Room 32-311, Cambridge, MA 02139, USA
+FEATURES             Location/Qualifiers
+     source          1..4485
+                     /organism="BioBrick cloning vector pSB4A5-I52002"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:508434"
+     misc_feature    1..21
+                     /note="BioBrick cloning site suffix (BBa_G00001)"
+     misc_feature    35..46
+                     /note="translational stop sequence for BioBrick
+                     vector-insert insulation, has stop codons in all 6 reading
+                     frames (BBa_B0042)"
+     regulatory      47..115
+                     /regulatory_class="terminator"
+                     /note="derived from tonB terminator (BBa_B0054); similar
+                     to Escherichia coli strain MG1655 accession U00096"
+     stem_loop       57..88
+                     /note="derived from tonB terminator, predicted using
+                     mFold"
+     primer_bind     complement(116..135)
+                     /note="VR reverse sequencing primer annealing site
+                     (BBa_G00102)"
+     regulatory      136..176
+                     /regulatory_class="terminator"
+                     /note="derived from ribosomal RNA rrnC operon, reverse
+                     orientation (BBa_B0062); similar to Escherichia coli
+                     strain MG1655 accession U00096"
+     stem_loop       complement(149..168)
+                     /note="derived from ribosomal RNA rrnC operon"
+     rep_origin      184..2220
+                     /note="pSC101 low copy replication origin (BBa_I50042)"
+     misc_feature    320..687
+                     /note="par region"
+     misc_feature    818..900
+                     /note="AT rich region"
+     gene            1011..2019
+                     /gene="rep101"
+     regulatory      1011..1016
+                     /regulatory_class="minus_35_signal"
+                     /gene="rep101"
+     regulatory      1033..1038
+                     /regulatory_class="minus_10_signal"
+                     /gene="rep101"
+     regulatory      1053..1065
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="rep101"
+     regulatory      1062..1067
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="rep101"
+     CDS             1069..2019
+                     /gene="rep101"
+                     /note="involved in plasmid replication"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Rep101"
+                     /protein_id="ACB05486.1"
+                     /translation="MSELVVFKANELAISRYDLTEHETKLILCCVALLNPTIENPTRK
+                     ERTVSFTYNQYAQMMNISRENAYGVLAKATRELMTRTVEIRNPLVKGFEIFQWTNYAK
+                     FSSEKLELVFSEEILPYLFQLKKFIKYNLEHVKSFENKYSMRIYEWLLKELTQKKTHK
+                     ANIEISLDEFKFMLMLENNYHEFKRLNQWVLKPISKDLNTYSNMKLVVDKRGRPTDTL
+                     IFQVELDRQMDLVTELENNQIKMNGDKIPTTITSDSYLRNGLRKTLHDALTAKIQLTS
+                     FEAKFLSDMQSKHDLNGSFSWLTQKQRTTLENILAKYGRI"
+     misc_feature    2229..3171
+                     /note="bla ampicillin resistance marker (BBa_P1002)"
+     gene            2259..3168
+                     /gene="bla"
+     regulatory      2259..2264
+                     /regulatory_class="minus_35_signal"
+                     /gene="bla"
+     regulatory      2285..2290
+                     /regulatory_class="minus_10_signal"
+                     /gene="bla"
+     regulatory      2299..2303
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="bla"
+     CDS             2308..3168
+                     /gene="bla"
+                     /note="confers resistance to ampicillin"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="beta-lactamase"
+                     /protein_id="ACB05485.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+     regulatory      3179..3250
+                     /regulatory_class="terminator"
+                     /note="derived from hisI terminator (BBa_B0053); similar
+                     to Escherichia coli strain MG1655 accession U00096"
+     stem_loop       3187..3221
+                     /note="derived from hisI terminator"
+     primer_bind     3251..3270
+                     /note="VF2 forward sequencing primer annealing site
+                     (BBa_G00100)"
+     regulatory      3271..3348
+                     /regulatory_class="terminator"
+                     /note="derived from bacteriophage T3 terminator, reverse
+                     orientation (BBa_B0055); similar to bacteriophage T3 gene
+                     1 to gene 11 (accession number X17255)"
+     stem_loop       complement(3306..3327)
+                     /note="derived from bacteriophage T3 terminator"
+     misc_feature    3349..3360
+                     /note="translational stop sequence for BioBrick
+                     vector-insert insulation, has stop codons in all 6 reading
+                     frames (BBa_B0042)"
+     misc_feature    3374..3395
+                     /note="BioBrick cloning site prefix (BBa_G00000)"
+     misc_feature    3396..3811
+                     /note="ccdB positive selection marker (BBa_P1016)"
+     gene            3436..3808
+                     /gene="ccdB"
+     regulatory      3436..3441
+                     /regulatory_class="minus_35_signal"
+                     /gene="ccdB"
+     regulatory      3459..3464
+                     /regulatory_class="minus_10_signal"
+                     /gene="ccdB"
+     CDS             3503..3808
+                     /gene="ccdB"
+                     /note="controlled cell death protein B; toxin protein that
+                     inhibits DNA gyrase which functions during DNA replication
+                     to catalyze negative supercoiling"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="CcdB"
+                     /protein_id="ACB05484.1"
+                     /translation="MQFKVYTYKRESRYRLFVDVQSDIIDTPGRRMVIPLASARLLSD
+                     KVSRELYPVVHIGDESWRMMTTDMASVPVSVIGEEVADLSHRENDIKNAINLMFWGI"
+     rep_origin      3812..4485
+                     /note="high copy replication origin derived from pUC19
+                     accession M77789 (BBa_I50022)"
+     gene            3838..4426
+                     /gene="RNAII"
+     regulatory      3838..3843
+                     /regulatory_class="minus_35_signal"
+                     /gene="RNAII"
+     regulatory      3859..3864
+                     /regulatory_class="minus_10_signal"
+                     /gene="RNAII"
+     misc_RNA        3874..4426
+                     /gene="RNAII"
+                     /product="RNAII"
+     gene            complement(3877..4020)
+                     /gene="RNAI"
+     misc_RNA        complement(3877..3984)
+                     /gene="RNAI"
+                     /product="RNAI"
+     regulatory      complement(3993..3998)
+                     /regulatory_class="minus_10_signal"
+                     /gene="RNAI"
+     regulatory      complement(4015..4020)
+                     /regulatory_class="minus_35_signal"
+                     /gene="RNAI"
+ORIGIN      
+        1 tactagtagc ggccgctgca ggagtcacta agggttagtt agttagatta gcagaaagtc
+       61 aaaagcctcc gaccggaggc ttttgactaa aacttccctt ggggttatca ttggggctca
+      121 ctcaaaggcg gtaatcagat aaaaaaaatc cttagctttc gctaaggatg atttctgcta
+      181 gagctgtcag accaagttta cgagctcgct tggactcctg ttgatagatc cagtaatgac
+      241 ctcagaactc catctggatt tgttcagaac gctcggttgc cgccgggcgt tttttattgg
+      301 tgagaatcca agcactaggg acagtaagac gggtaagcct gttgatgata ccgctgcctt
+      361 actgggtgca ttagccagtc tgaatgacct gtcacgggat aatccgaagt ggtcagactg
+      421 gaaaatcaga gggcaggaac tgctgaacag caaaaagtca gatagcacca catagcagac
+      481 ccgccataaa acgccctgag aagcccgtga cgggcttttc ttgtattatg ggtagtttcc
+      541 ttgcatgaat ccataaaagg cgcctgtagt gccatttacc cccattcact gccagagccg
+      601 tgagcgcagc gaactgaatg tcacgaaaaa gacagcgact caggtgcctg atggtcggag
+      661 acaaaaggaa tattcagcga tttgcccgag cttgcgaggg tgctacttaa gcctttaggg
+      721 ttttaaggtc tgttttgtag aggagcaaac agcgtttgcg acatcctttt gtaatactgc
+      781 ggaactgact aaagtagtga gttatacaca gggctgggat ctattctttt tatctttttt
+      841 tattctttct ttattctata aattataacc acttgaatat aaacaaaaaa aacacacaaa
+      901 ggtctagcgg aatttacaga gggtctagca gaatttacaa gttttccagc aaaggtctag
+      961 cagaatttac agatacccac aactcaaagg aaaaggacat gtaattatca ttgactagcc
+     1021 catctcaatt ggtatagtga ttaaaatcac ctagaccaat tgagatgtat gtctgaatta
+     1081 gttgttttca aagcaaatga actagcgatt agtcgctatg acttaacgga gcatgaaacc
+     1141 aagctaattt tatgctgtgt ggcactactc aaccccacga ttgaaaaccc tacaaggaaa
+     1201 gaacggacgg tatcgttcac ttataaccaa tacgctcaga tgatgaacat cagtagggaa
+     1261 aatgcttatg gtgtattagc taaagcaacc agagagctga tgacgagaac tgtggaaatc
+     1321 aggaatcctt tggttaaagg ctttgagatt ttccagtgga caaactatgc caagttctca
+     1381 agcgaaaaat tagaattagt ttttagtgaa gagatattgc cttatctttt ccagttaaaa
+     1441 aaattcataa aatataatct ggaacatgtt aagtcttttg aaaacaaata ctctatgagg
+     1501 atttatgagt ggttattaaa agaactaaca caaaagaaaa ctcacaaggc aaatatagag
+     1561 attagccttg atgaatttaa gttcatgtta atgcttgaaa ataactacca tgagtttaaa
+     1621 aggcttaacc aatgggtttt gaaaccaata agtaaagatt taaacactta cagcaatatg
+     1681 aaattggtgg ttgataagcg aggccgcccg actgatacgt tgattttcca agttgaacta
+     1741 gatagacaaa tggatctcgt aaccgaactt gagaacaacc agataaaaat gaatggtgac
+     1801 aaaataccaa caaccattac atcagattcc tacctacgta acggactaag aaaaacacta
+     1861 cacgatgctt taactgcaaa aattcagctc accagttttg aggcaaaatt tttgagtgac
+     1921 atgcaaagta agcatgatct caatggttcg ttctcatggc tcacgcaaaa acaacgaacc
+     1981 acactagaga acatactggc taaatacgga aggatctgag gttcttatgg ctcttgtatc
+     2041 tatcagtgaa gcatcaagac taacaaacaa aagtagaaca actgttcacc gttagatatc
+     2101 aaagggaaaa ctgtccatat gcacagatga aaacggtgta aaaaagatag atacatcaga
+     2161 gcttttacga gtttttggtg catttaaagc tgttcaccat gaacagatcg acaatgtaac
+     2221 tactagagct aaatacattc aaatatctat ccgctcatga gacaataacc ctgataaatg
+     2281 cttcaataat attgaaaaag gaagaatatg agtattcaac atttccgtgt cgcccttatt
+     2341 cccttttttg cggcattttg ccttcctgtt tttgctcacc cagaaacgct ggtgaaagta
+     2401 aaagatgccg aagatcagtt gggtgcacgt gtgggttaca tcgaactgga cctcaacagc
+     2461 ggtaagattc ttgagagttt tcgccccgaa gaacgtttcc caatgatgag cacttttaaa
+     2521 gttctgctct gtggcgcggt attatcccgt attgacgccg ggcaagagca actcggtcgc
+     2581 cgcatacact attctcagaa tgacttggtt gagtactcac cagtcacaga aaagcatctt
+     2641 acggacggca tgacagtacg cgaattatgc agcgctgcca taaccatgag tgataacacg
+     2701 gcggccaact tacttctgac aacgatcgga ggaccgaagg agcttaccgc ttttttgcac
+     2761 aacatgggtg atcatgtaac tcgccttgat cgttgggaac cggagctgaa tgaagccata
+     2821 ccaaacgacg agcgtgacac cacgatgcct gtagctatgg caacaacgtt gcgcaaactc
+     2881 ttaactggcg aacttcttac tctcgcttcc cggcaacaat taatagactg gatggaggcg
+     2941 gataaagttg caggaccact tctgcgctcg gcccttccgg ctggctggtt tattgctgat
+     3001 aaatctggag ccggtgagcg tgggtcccgc ggtattattg cagccctggg gccagatggt
+     3061 aagccctccc gtatcgtagt tatctacacg acggggagcc aggcaactat ggacgaacgt
+     3121 aatcgccaga tcgctgagat aggtgcctcc ctgattaagc attggtaata atactagctc
+     3181 cggcaaaaaa acgggcaagg tgtcaccacc ctgccctttt tctttaaaac cgaaaagatt
+     3241 acttcgcgtt tgccacctga cgtctaagaa aaggaatatt cagcaatttg cccgtgccga
+     3301 agaaaggccc acccgtgaag gtgagccagt gagttgattg ctacgtaatt agttagttag
+     3361 cccttagtga ctcgaattcg cggccgcttc tagagggctt actaaaagcc agataacagt
+     3421 atgcgtattt gcgcgctgat ttttgcggta taagaatata tactgatatg tatacccgaa
+     3481 gtatgtcaaa aagaggtatg ctatgcagtt taaggtttac acctataaaa gagagagccg
+     3541 ttatcgtctg tttgtggatg tacagagtga tattattgac acgcccgggc gacggatggt
+     3601 gatccccctg gccagtgcac gtctgctgtc agataaagtc tcccgtgaac tttacccggt
+     3661 ggtgcatatc ggggatgaaa gctggcgcat gatgaccacc gatatggcca gtgtgccggt
+     3721 ctccgttatc ggggaagaag tggctgatct cagccaccgc gaaaatgaca tcaaaaacgc
+     3781 cattaacctg atgttctggg gaatataata acccgtagaa aagatcaaaa gatcttcttg
+     3841 agatcctttt tttctgcgcg taatctgcta cttgcaaaca aaaaaaccac cgctaccagc
+     3901 ggtggtttgt ttgccggatc aagagctacc aactcttttt ccgaaggtaa ctggctttag
+     3961 cagagcgcag ataccaaata ctgtccttct agtgtagccg tagttaggcc accacttcaa
+     4021 gaactctgta gcaccgccta catacctcgc tctgctaatc ctgttaccag tggctgctgc
+     4081 cagtggcgat aagtcgtgtc ttaccgggtt ggactcaaga cgatagttac cggataaggc
+     4141 gcagcggtcg ggctgaacgg ggggttcgtg cacacagccc agcttggagc gaacgaccta
+     4201 caccgaactg agatacctac agcgtgagct atgagaaagc gccacgcttc ccgaagggag
+     4261 aaaggcggac aggtatccgg taagcggcag ggtcggaaca ggagagcgca cgagggagct
+     4321 tccaggggga aacgcctggt atctttatag tcctgtcggg tttcgccacc tctgacttga
+     4381 gcgtcgattt ttgtgatgct cgtcaggggg gcggagccta tggaaaaacg ccagcaacgc
+     4441 ggccttttta cggttcctgg ccttttgctg gccttttgct cacat
+//
+

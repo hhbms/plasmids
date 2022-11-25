@@ -7,7 +7,7 @@
   - J23101 (constitutive promoter)
   - B0032 (weak RBS)
   - E0051 (lacZa-GFP fusion)
-- Top10 competent cell: J23101 B0032 E0051
+- Top10 competent cell: J23101 B0034 E0051
   - unknown backbone
   - J23101 (constitutive promoter)
   - B0034 (strong RBS)

@@ -1,3 +1,10 @@
+# Developer notes
+
+_Descriptions on how plasmids are organized. Also includes drafts of potential plasmids to add._
+
+## Potential kits
+- EcoFlex ([paper](https://pubs.acs.org/doi/10.1021/acssynbio.6b00031), [addgene](https://www.addgene.org/kits/freemont-ecoflex-moclo/#kit-details))
+
 ## SEED
 
 - Top10 competent cell: J23101 B0032 E0051

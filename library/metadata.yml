@@ -9,8 +9,16 @@ box1:
         The "1A" suffix represents the plasmid is a Level 1 vector, and will be positioned first when inserting into a Level 2 vector.
 
         For more details on JUMP plasmids, read the paper linked below.
+      tags:
+        - medium copy number
+      keys:
+        ori: p15A
+        resistance: Kan
       links:
         - url: https://academic.oup.com/synbio/article/6/1/ysab003/6126375
           desc: Paper describing the JUMP plasmid library.
         - url: https://www.addgene.org/126973/
           desc: Plasmid map from Addgene
+      sequenced:
+        - date: 
+          results: 

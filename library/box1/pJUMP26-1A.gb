@@ -16,73 +16,73 @@ COMMENT     Original file name: iGEM2022_H4X_4_pJUMP26-1A_pLann.gbk Annotated
 FEATURES             Location/Qualifiers
      source          1..3161
                      /mol_type="other DNA"
+                     /note="color: #ffffff"
                      /organism="synthetic DNA construct"
      terminator      7..93
                      /label=rrnB T1 terminator
                      /note="note: pLannotate database: snapgene identity: 100.0 
                      match_length: 100.0 fragment: False other: terminator"
+                     /note="color: #ffffff"
      rep_origin      complement(128..183)
                      /direction=LEFT
                      /label=RSF ori (fragment)
                      /note="note: pLannotate database: snapgene identity: 100.0 
                      match_length: 7.5 fragment: True other: rep_origin"
+                     /note="color: #ffff00"
      rep_origin      complement(271..505)
                      /direction=LEFT
                      /label=p15A ori
                      /note="note: pLannotate database: snapgene identity: 99.8 
                      match_length: 100.0 fragment: False other: rep_origin"
+                     /note="color: #ffff00"
      rep_origin      complement(506..815)
                      /direction=LEFT
                      /label=p15A ori
                      /note="note: pLannotate database: snapgene identity: 99.8 
                      match_length: 100.0 fragment: False other: rep_origin"
+                     /note="color: #ffff00"
      oriT            complement(862..970)
                      /direction=LEFT
                      /label=oriT
                      /note="note: pLannotate database: snapgene identity: 100.0 
                      match_length: 99.1 fragment: False other: oriT"
+                     /note="color: #a6acb3"
      CDS             complement(1140..1952)
+                     /label=KanR (protein: aphA1)
                      /label=aphA1
                      /note="note: pLannotate database: swissprot identity: 99.3 
                      match_length: 100.0 fragment: False other: CDS"
-     CDS             complement(1140..1952)
-                     /codon_start=1
-                     /translation="MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYG
-                     KPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK
-                     TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRINNGLVDA
-                     SDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGI
-                     ADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
+                     /note="color: #993366; direction: LEFT"
      terminator      complement(2084..2178)
                      /label=lambda t0 terminator
                      /note="note: pLannotate database: snapgene identity: 100.0 
                      match_length: 100.0 fragment: False other: terminator"
+                     /note="color: #ffffff; direction: LEFT"
      misc_feature    complement(2212..2232)
                      /label=BioBrick suffix
                      /note="note: pLannotate database: snapgene identity: 100.0 
                      match_length: 100.0 fragment: False other: misc_feature"
+                     /note="color: #a6acb3; direction: LEFT"
      CDS             complement(2285..2995)
                      /label=superfolder GFP
                      /note="note: pLannotate database: snapgene identity: 99.9 
                      match_length: 99.6 fragment: False other: CDS"
-     CDS             complement(2285..2995)
-                     /codon_start=1
-                     /translation="RKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKF
-                     ICTTGKLPVPWPTLVTTLTYGVQCFARYPDHMKQHDFFKSAMPEGYVQERTISFKDDGT
-                     YKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKAN
-                     FKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEF
-                     VTAAGITHGMDELYK"
+                     /note="color: #993366; direction: LEFT"
      RBS             complement(3012..3032)
                      /label=RBS
                      /note="note: pLannotate database: snapgene identity: 100.0 
                      match_length: 100.0 fragment: False other: RBS"
+                     /note="color: #a6acb3; direction: LEFT"
      promoter        complement(3047..3071)
                      /label=J23119(SpeI) promoter (fragment)
                      /note="note: pLannotate database: snapgene identity: 96.0 
                      match_length: 71.4 fragment: True other: promoter"
+                     /note="color: #ffffff; direction: LEFT"
      misc_feature    complement(3094..3115)
                      /label=BioBrick prefix
                      /note="note: pLannotate database: snapgene identity: 100.0 
                      match_length: 100.0 fragment: False other: misc_feature"
+                     /note="color: #a6acb3; direction: LEFT"
 ORIGIN
         1 aggcatcaaa taaaacgaaa ggctcagtcg aaagactggg cctttcgttt tatctgttgt
        61 ttgtcggtga acgctctcct gagtaggaca aatccgccgc cctagacagc tgggcgcgcc

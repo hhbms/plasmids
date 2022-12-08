@@ -6,7 +6,9 @@ box1:
       desc: |
         A "Level 1" (for MoClo) plasmid backbone from the JUMP ("Joint Universal Modular Plasmids") library. It contains a superfolder GFP (sfGFP) reporter gene that drops out when plasmid assembly (via Golden Gate, MoClo, Gibson, etc.) is successful.
 
-        For details on the "1A" suffix, read the paper linked below.
+        The "1A" suffix represents the plasmid is a Level 1 vector, and will be positioned first when inserting into a Level 2 vector.
+
+        For more details on JUMP plasmids, read the paper linked below.
       links:
         - url: https://academic.oup.com/synbio/article/6/1/ysab003/6126375
           desc: Paper describing the JUMP plasmid library.

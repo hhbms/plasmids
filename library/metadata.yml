@@ -1,12 +1,13 @@
-box1_1:
-  id: pJUMP26-1A
-  file: pJUMP26-1A.gb
-  desc: |
-    A plasmid backbone from the JUMP (Joint universal modular plasmids) library. It contains a superfolder GFP (sfGFP) reporter gene that drops out when plasmid assembly (via Golden Gate, MoClo, Gibson, etc.) is successful.
+box1:
+  1:
+    id: pJUMP26-1A
+    file: pJUMP26-1A.gb
+    desc: |
+      A plasmid backbone from the JUMP (Joint universal modular plasmids) library. It contains a superfolder GFP (sfGFP) reporter gene that drops out when plasmid assembly (via Golden Gate, MoClo, Gibson, etc.) is successful.
 
-    For details on the "1A" suffix, read the paper linked below.
-  links:
-    - url: https://academic.oup.com/synbio/article/6/1/ysab003/6126375
-      desc: Paper describing the JUMP plasmid library.
-    - url: https://www.addgene.org/126973/
-      desc: Plasmid map from Addgene
+      For details on the "1A" suffix, read the paper linked below.
+    links:
+      - url: https://academic.oup.com/synbio/article/6/1/ysab003/6126375
+        desc: Paper describing the JUMP plasmid library.
+      - url: https://www.addgene.org/126973/
+        desc: Plasmid map from Addgene
